@@ -1,4 +1,4 @@
-# projeto-mentoria
+# Projeto Mentoria
 
 # **Ordem das histórias**
 
