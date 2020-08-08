@@ -7,8 +7,6 @@
  - Permitir adicionar fotos as mercadorias
  - Adicionar pesquisas por departamento dos produtos
  
-
-
 ## Detalhes das histórias
 
 
@@ -16,6 +14,7 @@
 **Eu** como gerente da padaria
 **Quero** poder cadastrar o nome, quantidade, data de validade e preço dos novos produtos que chegam na padaria
 **Para** Gerenciar melhor o estoque.
+*FOCO:* HTML, JS.
 
 
 
@@ -23,17 +22,24 @@
 **Eu** como gerente da padaria
 **Quero** poder ver na tela o nome, valor e quantidade dos produtos que estou passando na registradora.
 **Para** Poder garantir que os valores e produtos estao corretos com o que o cliente espera.
-
+*FOCO:* HTML, JS.
 
 
 **US 03** : Permitir adicionar fotos aos produtos
 **Eu** como gerente da padaria
 **Quero** poder inserir fotos aos produtos cadastrados
 **Para** atrair os clientes de forma visual
-
+*FOCO:* HTML, JS.
 
 
 **US 04** : Adicionar pesquisa por departamento
 **Eu** como cliente da padaria
 **Quero** poder pesquisar por departamento os produtos cadastrados na loja
 **Para** facilitar a busca de determinado produto
+*FOCO:* HTML,JS.  
+
+**US 05** : Login Usuário Gerente
+**Eu** como gerente da padaria
+**Quero** acessar o sistema.
+**Para** acessar a aba de controle de mercadoria
+*FOCO:*    .
