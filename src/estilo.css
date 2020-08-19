@@ -1,0 +1,90 @@
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 400px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 2s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+}
+
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 50px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    margin-bottom: 1px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    margin-top: 1px;
+
+}
+
+div#interface {
+    width: 900px;
+    margin: -20px auto 10px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+input.fieldFormCadastro{
+    width: 300px;
+}
+
+#tabela{
+    width: 75%;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+#tabela thead tr th{
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+#tabela td{
+    width: 75%;
+    border: 1px solid black;
+    border-spacing: 0px;
+}

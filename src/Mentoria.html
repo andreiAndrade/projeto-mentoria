@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria em TI</title>
+    <style></style>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>Loja Mentoria</h1>
+
+            <nav id="menu">
+                <ul type="">
+                    <li><a href="index.hmtl">Home</a></li>
+                    <li><a href="./fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <form onClick="">
+            <h1>Cadastrar Produto</h1>
+
+            <label for="">Nome Produto <br /> </label>
+            <input class="fieldFormCadastro" id="nomeProduto" type="text">
+            <br>
+
+            <label for="">Preço <br /></label>
+            <input class="fieldFormCadastro" id="precoProduto" type="number">
+            <br>
+
+            <label for="">Quantidade Produto <br /></label>
+            <input class="fieldFormCadastro" id="qtdProduto" type="number">
+            <br><br>
+
+            <input type="button" value="Cadastrar" onclick="criaProduto()">
+            <br><br>
+
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome Produto</th>
+                        <th>Valor (R$)</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Tênis All Star</td>
+                    <td>150.00</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Bola de basquete</td>
+                    <td>120.00</td>
+                    <td>12</td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
